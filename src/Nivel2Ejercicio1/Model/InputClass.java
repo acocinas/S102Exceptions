@@ -72,6 +72,7 @@ public class InputClass {
     public static String readString(String message) {
         while (true) {
             System.out.print(message + " ");
+            sc.nextLine();
             String input = sc.nextLine().trim();//el .trim es para evitar que sea una cadena de espacios considerada vacía
             if (!input.isEmpty()) {
                 return input;
