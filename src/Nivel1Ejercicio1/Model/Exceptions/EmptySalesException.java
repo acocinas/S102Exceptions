@@ -1,4 +1,4 @@
-package Nivel1Ejercicio1.Model;
+package Nivel1Ejercicio1.Model.Exceptions;
 
 public class EmptySalesException extends Exception{
     public EmptySalesException(){

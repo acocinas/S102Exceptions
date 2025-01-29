@@ -1,4 +1,4 @@
-package Nivel1Ejercicio1.Model;
+package Nivel1Ejercicio1.Model.Entities;
 
 public class Product {
     private String name;

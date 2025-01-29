@@ -1,4 +1,6 @@
-package Nivel1Ejercicio1.Model;
+package Nivel1Ejercicio1.Model.Entities;
+
+import Nivel1Ejercicio1.Model.Exceptions.EmptySalesException;
 
 import java.util.*;
 
@@ -21,7 +23,7 @@ public class Sales {
     public void addProduct(Product product){
         products.add(product);
     }
-    public void calculateTotal() throws EmptySalesException{
+    public void calculateTotal() throws EmptySalesException {
         if (products.isEmpty()){
             throw new EmptySalesException();
         } else {
