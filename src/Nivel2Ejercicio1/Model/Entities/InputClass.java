@@ -1,4 +1,4 @@
-package Nivel2Ejercicio1.Model;
+package Nivel2Ejercicio1.Model.Entities;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -62,11 +62,11 @@ public class InputClass {
                 String input = sc.next();
 
                 if (input.length() != 1) {
-                    throw new Exception("Debes introducir un carácter");
+                    throw new IllegalArgumentException("Debes introducir un carácter");
                 } else {
                     return input.charAt(0);
                 }
-            } catch (Exception e) {
+            } catch (IllegalArgumentException e) {
                 System.out.println(e.getMessage());
             }
         }

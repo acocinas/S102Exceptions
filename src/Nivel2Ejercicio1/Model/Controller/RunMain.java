@@ -1,6 +1,6 @@
-package Nivel2Ejercicio1.Model;
+package Nivel2Ejercicio1.Model.Controller;
 
-import static Nivel2Ejercicio1.Model.InputClass.*;
+import static Nivel2Ejercicio1.Model.Entities.InputClass.*;
 
 public class RunMain {
     public static void run(){
